@@ -1,0 +1,34 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "API with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cromofuego/rest-api.git"
+  },
+  "keywords": [
+    "API",
+    "nodejs"
+  ],
+  "author": "Elkin Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cromofuego/rest-api/issues"
+  },
+  "homepage": "https://github.com/cromofuego/rest-api#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "standard": "17.1.0",
+    "zod": "^3.22.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
